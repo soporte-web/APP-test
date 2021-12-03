@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+html {
+	height: 100vh;
+	scroll-behavior: smooth;
+}
+body {
+	display: flex;
+	margin: 0;
+	min-height: 100vh;
+	padding: 0;
+	position: relative;
+	background-color: #a42828;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+#logo{
+	background-image: url('../imgs/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 256px;
+	width: 256px;
+	cursor: pointer;
+}
+#resultado {
+	background-color: #fff;
+	width: 50%;
+	height: 80px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+#instalar {
+	cursor: pointer;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background-color: #289ea4;
+	color: white;
+	border: 0;
+	padding: 13px;
+	border-radius: 10px;
+	display: none;
+}
