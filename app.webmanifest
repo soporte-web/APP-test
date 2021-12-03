@@ -1,0 +1,41 @@
+{
+    "name": "Unitec APP test",
+    "start_url": "./index.html",
+    "scope": "./index.html",
+    "display": "standalone",
+    "theme_color": "#dc6563",
+    "background_color": "antiquewhite",
+    "description": "Esta es una PWA de prueba para Unitec. Es solamente una web con dos boludeces.",
+    "icons": [
+        {
+            "src": "imgs/logo.png",
+            "sizes": "1024x1024",
+            "purpose": "any",
+            "type": "image/png"
+        },
+        {
+            "src": "imgs/mask.png",
+            "sizes": "512x512", 
+            "purpose": "maskable",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "imgs/captura_1.png",
+            "sizes": "1440x769",
+            "type": "image/png"
+        },
+        {
+            "src": "imgs/captura_2.png",
+            "sizes": "1440x769",
+            "type": "image/png"
+        },
+        {
+            "src": "imgs/captura_3.png",
+            "sizes": "1440x769",
+            "type": "image/png"
+        }
+    ]
+
+}
