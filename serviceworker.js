@@ -1,5 +1,5 @@
 const CACHE_NAME = "APP Unitec";
-const urlsToCache = ["/", "style.css", "js/script.js", "imgs/logo.png", "imgs/mask.png"];
+const urlsToCache = ["/", "style.css", "script/script.js", "imgs/logo.png", "imgs/mask.png"];
 
 self.addEventListener("install", event => {
     // Pre-cache archivos para offline y performance; los pictogramas los dejamos para la primera carga
